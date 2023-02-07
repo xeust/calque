@@ -1,0 +1,9 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: dcalc
+    src: .
+    engine: python3.9
+    primary: true
+    presets:
+      api_keys: true
